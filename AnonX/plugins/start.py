@@ -88,7 +88,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/DevilsHeavenMF) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/TELE_WALI_FRIENDSHIP) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -164,6 +164,7 @@ async def start_comm(client, message: Message, _):
 🎥 **ᴄʜᴀɴɴᴇʟ:** {channel}
 📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 🔗 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
+ʜᴀᴛᴇʀꜱ ᴋɪ ᴍᴀᴀ ᴋᴇ ʙʜᴏꜱᴅᴇ ᴍᴇ ᴀᴀɢ ʟɢᴀ ᴅɪ ᴀᴀɢ ʟɢᴀ ᴅɪ ᴀᴀɢ ʟɢᴀ ᴅɪ ᴀᴀɢ
 
 💖 sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
@@ -173,7 +174,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/DevilsHeavenMF"
+                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/TELE_WALI_FRIENDSHIP"
                         ),
                     ],
                 ]
