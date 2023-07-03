@@ -24,7 +24,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("AnonX").error(
-            "WTF Baby ! Atleast add a pyrogram string, How Cheap..."
+            "What the fuck Baby ! Atleast add a pyrogram string, How Cheap this is..."
         )
         return
     if (
@@ -32,7 +32,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("AnonX").warning(
-            "Sur spotify id aur secret toh daala hi nahi aapne ab toh spotify se nahi chala paaoge gaane."
+            "O hlo piro wale bhamiya apne spotify id too daali hi nahi, ab to apke songs chlenge hi nahi."
         )
     try:
         users = await get_gbanned()
@@ -53,11 +53,11 @@ async def init():
     await Anon.start()
     try:
         await Anon.stream_call(
-            "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
+            "https://te.legra.ph/file/a6b26f0996cafde6f3f80.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("AnonX").error(
-            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
+            "[ERROR] - \n\nAre oo bade wale noob bhaiya phle voice chat means vc too on karo aap, songs sunne ke liye aaye bot bnaya or bot ko chlne ke liye vc open honi bhi too jruri hai. so stupid this is."
         )
         sys.exit()
     except:
